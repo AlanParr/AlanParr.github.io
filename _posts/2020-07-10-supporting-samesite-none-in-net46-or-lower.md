@@ -29,3 +29,39 @@ As you'll see from the below image, we have a cookie with the secure attribute a
 
 ![No SameSite](\images\cookie-nosamesite.png)
 
+## Adding SameSite
+
+In .Net 4.7.2, if we want to support SameSite, we simply add the SameSite attribute.
+
+{% highlight csharp %}
+var cookie = new HttpCookie("myreallyimportantcookie")
+            {
+                Value = "myreallyimportantcookievalue",
+                Secure = true,
+                Path = "/",
+                HttpOnly = true, 
+                SameSite = SameSiteMode.None
+            };
+{% endhighlight %}
+
+Of course, we can't do this in .Net 4.5 as the SameSite property doesn't exist. Instead, we can do this somewhat gross thing:
+
+{% highlight csharp %}
+var cookie = new HttpCookie("myreallyimportantcookie")
+            {
+                Value = "myreallyimportantcookievalue" + ";SameSite=None",
+                Secure = true,
+                Path = "/",
+                HttpOnly = true
+            };
+{% endhighlight %}
+
+And now if we run the application, we can see we have the SameSite attribute set to None.
+
+![SameSite](\images\cookie-samesite.png)
+
+## Disclaimer #1
+This solution is completely unsupported and a bit gross. The approved solution is to move to .Net 4.7.2 and if you are able, you should absolutely do that. But sometimes the real world places limits upon us and if you are in that situation, hopefully this will get you out of a bind.
+
+## Disclaimer #2
+I have only tested this in an MVC solution in .Net 4.6.1. Theoretically, I think it will probably work in versions lower than that unless the cookie value-handling semantics changed massively at some point in the past. If you want to use this, test for yourself and post a comment if it worked as maybe that will help someone else.
