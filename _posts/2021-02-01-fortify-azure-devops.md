@@ -35,7 +35,9 @@ You'll need the API Key and the API Secret that will be displayed. You can only 
 In your Azure DevOps project, go to Settings, then Service Connections, and click `New Service Connection`. In the list, you should see an entry for Fortify.
 ![Service Connection](\images\fortify-azdo-connection.png)
 
-* Complete the New Connection dialog. 
+* Complete the New Connection dialog.
+
+![Service Connection Details](\images\fortify-azdo-connection-details.png)
 * The API and Portal urls were the values I couldn't find in their documentation so these may be different for you.
 * Put the API Key and API Secret from the Fortify portal in the Authentication fields. Be sure to set the Authentication method to `Token Based Authentication`.
 
