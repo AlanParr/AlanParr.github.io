@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am a .Net developer based in the Midlands in the UK, working on Azure, .Net Framework, .Net Core, and just generally playing around with anything that interests me.
+
+I play snooker (badly), archery (acceptably) and am a recovering Windows Phone user.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[alanjparr83@gmail.com](mailto:alanjparr83@gmail.com)
