@@ -3,10 +3,11 @@ layout: post
 title:  "Breathing new life in to old netbooks"
 date: 2013-04-23 19:30:00 +0000
 categories: dell-mini-9 netbook samsung-nc10 windows
+excerpt_separator: <!--end_excerpt-->
 ---
 
 You don't see many netbooks around these days, and for a very good reason. When they were new, their performance ranged from ok to rubbish and they were no good for any real computing. Looking back, they were more like the first stab at the sweet spot between a smart phone and a full-on laptop/desktop, a gap which has been much more successfully filled with tablets in recent years.
-
+<!--end_excerpt-->
 I have 2 netbooks, one is a Samsung NC10 and the other a Dell Mini 9. Both of these have an Intel Atom N270 @1.60 Ghz and 1GB of RAM.
 
 The Dell ran XP (badly) and the Samsung has run XP (badly), Windows 7 (really badly), and Ubuntu (just about acceptable).

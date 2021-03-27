@@ -2,11 +2,12 @@
 layout: post
 title:  "In-place upgrade Windows?! You’ve got to be kidding me!"
 date: 2015-12-21 13:00:00 +0000
-categories: 
+categories: windows8
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Before the release of Windows 8, this was my default reply to anyone who dared suggest doing an in-place upgrade of Windows. I’d done it before in upgrading from 98 to ME and I’d seen and heard many horror stories of failed in-place upgrades that it become clear that it wasn’t even worth the effort, you were going to have to do a fresh install either way, so you may as well make it plan A.
-
+<!--end_excerpt-->
 Then along came the £15 upgrade offer for Windows 8 shortly after it’s release in October 2012. It seemed like a no-brainer just to get the latest version of Windows for such a small price. So I went for it, in the expectation that I would have to do a clean install anyway, reducing the upgrade to simply the hoop I had to jump through to get the offer.
 
 Imagine my surprise when it worked. There were no BSODs, no applications failing to load after the update, no driver issues, nothing. It. Just. Worked. The only thing I had to do was re-intsall Linqpad to get Windows Search to show in the results lists when searching for “linq”, but in retrospect, if I’d given it a day or two to reindex everything it probably would’ve picked it up on it’s own eventually. In the months after, I upgraded several more machines and witnessed a number of other upgrades, all of them completed with at most minor issues easily solved by driver/Windows updates, or no issues at all. My faith in Windows in-place upgrades was restored.

@@ -3,10 +3,11 @@ layout: post
 title:  "Converting docx to PDF in Azure"
 date:   2017-01-08 13:26:00 +0000
 categories: azure pdf
+excerpt_separator: <!--end_excerpt-->
 ---
 
 As part of a recent feature, we needed to implement conversion of docx to pdf. A quick look on Nuget revealed [Free Spire.Doc for .Net](http://www.nuget.org/packages/FreeSpire.Doc/). We thought this looked like a great use case for Azure Functions, so the member of the team who was implementing the feature quickly implemented this as an Azure Function, but when we deployed it, it didn't work. After a bit of googling, the cause of this was that, due to the sandboxed environment of Azure App Service, assemblies requiring access to GDI don’t work. Further Googling with Bing revealed that pretty much every .Net docx to PDF conversion library uses GDI, so we couldn’t just switch to a different library.
-
+<!--end_excerpt-->
 We needed full access to Windows to do this, which meant a VM. The cheapest Windows VM in azure is a Basic A0 at less than £9 a month, much cheaper than commercial document conversion services I found, which were at least £20 a month and had really weird APIs that were going to be pretty tricky to integrate in to our application.
 
 I implemented a Windows service using Topshelf and the original Free Spire.Doc code for the actual conversion and installed this on to the VM. It simply polls an Azure Storage Queue for a message and deserializes the body to the following class.

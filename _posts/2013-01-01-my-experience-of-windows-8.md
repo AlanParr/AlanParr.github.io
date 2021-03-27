@@ -3,10 +3,11 @@ layout: post
 title:  "My experience of Windows 8"
 date: 2013-01-01 22:12:00 +0000
 categories: metro windows windows-8
+excerpt_separator: <!--end_excerpt-->
 ---
 
 I think it's fair to say that Windows 8 has been the most controversial and negatively received OS since Vista. Every mention of Windows 8 invokes cries about the Metro UI and how the OS is a schizophrenic nightmare. Occasionally, amongst these voices will be a quiet statement of "it's not that bad once you get used to it".
-
+<!--end_excerpt-->
 That little voice isn't far wrong.
 
 That's not to say that after using Windows 8 for a while that I have grown to love the Metro UI and think it's the best thing since sliced bread. No, it's just that I've learned to ignore it to the extent that I barely notice it is there.

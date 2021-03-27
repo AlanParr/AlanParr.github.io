@@ -3,10 +3,11 @@ layout: post
 title:  "Close a window by title in C#"
 date: 2015-04-15 20:24:00 +0000
 categories: csharp windows
+excerpt_separator: <!--end_excerpt-->
 ---
 
 When you're developing for embedded systems that don't have a mouse or keyboard attached, a misbehaving program that decides to pop up windows at random is suddenly a lot more inconvenient.
-
+<!--end_excerpt-->
 Cue the below code snippet, which takes in a window title and sets it's state to minimised, maximised, or normal depending on the parameters you pass in. As usual, this is a Linqpad script. You just need to add a reference to **System.Runtime.InteropServices**, which is part of .net 4 and above.
 
 {% highlight csharp %}

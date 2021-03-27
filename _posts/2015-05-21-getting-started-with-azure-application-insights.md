@@ -3,10 +3,11 @@ layout: post
 title:  "Getting started with Azure Application Insights"
 date: 2015-05-21 09:42:00 +0000
 categories: appinsights azure
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Now that pricing information has been released for Application Insights, I decided to take the dive and deploy it on a few of the web applications I work on. The documentation is pretty good for your basic scenarios, but it glosses over what I think are probably common use cases.
-
+<!--end_excerpt-->
 * The instrumentation key (commonly referred to as the iKey) is located in an applicationinsights.config file, which is not very helpful if you want to change it when deploying to Live or Staging environments.
 * If you use any monitoring system, such as Traffic Manager, Web Apps AlwaysOn, or any Web Testing application, this all gets included as "real traffic", which is fair enough as AppInsights has no way of knowing that it isn't real traffic. You may want to see it, but I personally do not so I wanted a way to filter it out.
 

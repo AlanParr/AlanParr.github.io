@@ -3,11 +3,12 @@ layout: post
 title:  "Going Cloudy Part 6 - Monitoring and Load Balancing"
 date: 2013-04-28 21:08:00 +0000
 categories: azure cloud migraton
+excerpt_separator: <!--end_excerpt-->
 ---
 
 ## The Monitoring Project
 When using the traffic manager, it needs an endpoint on your service to hit in order to determine whether or not it is responding. This endpoint must be open (no authentication) and must be a path on your service. As you may have noticed, in the ServiceDefinition, I instructed my Site, Web Service and REST Services to only respond on port 80 or 443 to a specific host header, one which the traffic manager cannot provide as it will be accessing the instance directly, in other words via it’s cloudapp.net address.
-
+<!--end_excerpt-->
 The simple way to solve this would be to make one of the services also respond on an endpoint without a Host Header and give it an unauthenticated ActionResult somewehere that the Traffic Manager could access.
 
 Now I’m no security expert, but I do my best, and I didn’t want any of my core services hosting an unauthenticated endpoint and I want to make sure that they are only accessible by their public urls. Therefore, I created a project that is just for monitoring the health of my services. Initially, this will just service the traffic manager. In the long term, it’s a convenient place to put any generic monitoring functionality.

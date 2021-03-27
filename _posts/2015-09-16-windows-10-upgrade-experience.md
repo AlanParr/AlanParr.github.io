@@ -3,10 +3,11 @@ layout: post
 title:  "Windows 10 upgrade experience"
 date: 2015-09-16 14:03:00 +0000
 categories: miracles windows10
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Microsoft have really upped their upgrade game.
-
+<!--end_excerpt-->
 Pre-Windows 8, there was no point even bothering with an upgrade. Even if it completed without bricking your machine, the end result would be so unstable you'd just pave it and start again anyway.
 
 The upgrade from 7 to 8 was relatively painless, I only needed to reinstall a handful of applications afterwards, not a big deal.

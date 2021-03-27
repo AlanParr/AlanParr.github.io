@@ -2,11 +2,12 @@
 layout: post
 title:  "Windows 10 Mobile: Impressions after a week."
 date: 2015-12-28 15:26:00 +0000
-categories: 
+categories: windows10mobile
+excerpt_separator: <!--end_excerpt-->
 ---
 
 I’ve been keeping a close eye on Windows 10 Mobile, and I haven’t really liked what I’ve seen. The navigation is a clear lift from Android, and not in a good way, and paradigms like the Pivot control which made WP8.1 unique seem to have disappeared. But I’ve never been one for sticking my head in the sand and sticking to the current version of something because the new version looks scary and different so, rather than wait for WM10 to be released, I decided screw it, I’ll get what is essentially the RTM build on my Lumia 1020 by joining the Insider Preview programme.
-
+<!--end_excerpt-->
 This was about a week ago, and these are my impressions after using WM10 on my daily driver for a week.
 
 ## The Upgrade

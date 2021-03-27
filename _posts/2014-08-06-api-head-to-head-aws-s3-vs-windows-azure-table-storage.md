@@ -3,10 +3,11 @@ layout: post
 title:  "API Head-to-head: AWS S3 Vs Windows Azure Table Storage"
 date: 2014-08-06 21:52:00 +0000
 categories: aws azure s3 azurestorage
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Recently, I was experimenting with using S3 as a tertiary backup for my photos, an honour which eventually went to Azure as it was cheaper and I am more familiar with the Azure APIs as I use them in my day job.
-
+<!--end_excerpt-->
 I thought I’d take a deeper look at both APIs and see how they compare. I’ll go through some standard operations, comparing the amount of code required to perform the operation.
 
 If you want a comparison of features, there are plenty of blog posts on the subject, just [Bingle It](http://www.bingle.nu/results.php?type=www&query=AWS%20S3%20VS%20Azure%20Blob%20Storage)

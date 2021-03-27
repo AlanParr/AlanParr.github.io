@@ -3,10 +3,11 @@ layout: post
 title:  "Going Cloudy Part 3 - Configuring your endpoints"
 date: 2013-02-24 20:27:00 +0000
 categories: azure cloud migration
+excerpt_separator: <!--end_excerpt-->
 ---
 
 In my previous post, I outlined the new architecture. You may have noticed how we no longer have urls containing relative paths. This is because all of the components will be hosted on the same web role and I don’t want to have to deal with complicated startup scripts to configure IIS, therefore I want to try and use the Azure-provided methods as much as possible. When deploying multiple sites to a single web role in Azure, there are essentially two choices for setting it up.
-
+<!--end_excerpt-->
 * Virtual directories
 * Sites
 

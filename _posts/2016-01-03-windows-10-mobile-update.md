@@ -3,10 +3,11 @@ layout: post
 title:  "Windows 10 Mobile: An update"
 date:   2016-01-03 07:11:00 +0000
 categories: windows10mobile
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Even though my previous post was only published 6 days ago, it was written a week before that so I’ve now got 3 weeks of usage under my belt and felt the need to post an update.
-
+<!--end_excerpt-->
 The biggest issue I’ve encountered over the last few weeks, and which I forgot to incude in the previous post, was battery life. This was suffering quite a bit in diaily use to the point where regular use of email, Readit, Facebook and Twitter was rendering the battery dead before dinner time. To combat this, I reduced the telemtry levels down which seemed to have no effect. I was on the verge of quitting my bold experiment and retreating back to WP8.1 when Readit released an update with improved performance which also seems to have solved my battery problems, so it seems the issues weren’t with the OS itself, just a single app. It’s a poignant lesson about how a single regularly used app can uniwttingly completely alter your perspective of a platform.
 
 My other issue, which I did highlight in my prevous post is performance. I’m glad to say that shortly after that post, this seemed to spontaneously improve dramatically. There were no new builds in this time period, I don’t know if there was some indexing going on that was taking an age to complete and was chomping CPU cycles, but all seems well now. I think the aforementioned performance issues in Readit may have also played a part in my negative impressions.

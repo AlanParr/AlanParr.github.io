@@ -3,10 +3,11 @@ layout: post
 title:  "ProTip: Open Powershell as admin from Powershell"
 date: 2015-01-16 10:18:00 +0000
 categories: powershell
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Just a quick one as I find I have been using this trick a lot lately.
-
+<!--end_excerpt-->
 If I am in a standard Powershell prompt and need to get an admin one open, I used to search for Powershell, right-click, run as admin. I'd do this even if I was already in a Powershell prompt as I can never remember the syntax for runas.exe.
 
 A much easier way, especially if you are already in a Powershell prompt is:

@@ -3,10 +3,11 @@ layout: post
 title:  "A simple WebCache Helper"
 date: 2013-07-01 20:25:00 +0000
 categories: asp.net azure caching
+excerpt_separator: <!--end_excerpt-->
 ---
 
 As mentioned in most of my previous posts, the main project I work on is due to move to Azure in the future. Among the many gems of Azure is their caching infrastructure, which can either be hosted on a dedicated worker role or instructed to use spare memory on your web roles.
-
+<!--end_excerpt-->
 More information and pricing for Azure Caching can be found at [http://www.windowsazure.com/en-us/services/caching/](http://www.windowsazure.com/en-us/services/caching/)
 
 I fully intend to make use of Azure’s in-built caching when we get there, but I can’t wait to start implementing some sort of caching and I don’t want to have to do a big find-replace in the code when we do get there, so I wrote a simple WebCacheHelper which provides easy access to caching anywhere in the application but is also easy to replace when I move to Azure.

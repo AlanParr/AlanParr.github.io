@@ -3,12 +3,13 @@ layout: post
 title:  "Going Cloudy Part 1 - The Beginning"
 date: 2013-02-12 22:08:00 +0000
 categories: azure cloud migration
+excerpt_separator: <!--end_excerpt-->
 ---
 
 If you believe the hype, "Cloud" is the future and everything will end up there eventually.
 
 It's easy to think that "Cloud" is just another term for deploying your applications and services on virtual servers hosted in someone else's data center, mainstream media make this mistake all the time.
-
+<!--end_excerpt-->
 Making full use of the cloud, in my opinion anyway, is architecting and designing your system to take advantage of the availability and scalability that the cloud gives you.
 
 Designing for the cloud is one thing, migrating an existing application to the cloud and taking advantage of all it has to offer, is another entirely. Recently, I have been tasked with planning and carrying out a migration to the cloud.

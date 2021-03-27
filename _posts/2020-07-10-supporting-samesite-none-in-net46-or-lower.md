@@ -7,11 +7,11 @@ excerpt_separator: <!--end_excerpt-->
 ---
 
 As I write this post, it is 4 days until Chromium begins enforcing the new SameSite rules again.
-
+<!--end_excerpt-->
 When they first did this in March, it caused a number of issues including breaking website integrations with some payment gateways.
 
 If you're on .Net 4.7 or higher, Microsoft supports setting SameSite to None. The official recommendation is that if you want to use SameSite None, then you need to move up to .Net 4.7.2, which if you are able, you should absolutely do.
-<!--end_excerpt-->
+
 However, there are those of us who are stuck on .Net lower than 4.7 and there is nothing we can do about it and our employers want to know that their sites aren't going to start breaking come the 14th of July.
 
 While trying to find a solution to this problem, I stumbled upon what appears to be a possible solution for those of us stuck on lower .Net versions.

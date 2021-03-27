@@ -3,10 +3,11 @@ layout: post
 title:  "Making old machines immortal(-ish) with P2V"
 date: 2013-04-17 22:35:00 +0000
 categories: p2v virtualisation vmware converter
+excerpt_separator: <!--end_excerpt-->
 ---
 
 The time comes to every PC, when it's reached the end of it's life and it's time to be turned off once and for all...Except, when that PC has old software on it with a non-transferable license. In an ideal world this wouldn't happen, but sometimes it just can't be helped - either the software is no longer available to buy and transferring to an equivalent would cost a bomb, or you'd have to buy a new license for the most recent version which would also cost a bomb.
-
+<!--end_excerpt-->
 Fortunately, this is where virtualisation becomes really useful for a small business. While small businesses may not have workloads that warrant massive clusters of VMs spanning multiple centuply redundant clusters on fault tolerant blade servers, they will almost certainly at some point experience the imminent failure of *that* machine - the one machine in the entire company that simply must remain. It cannot be upgraded and it cannot be replaced, it must exist forever.
 
 In short, P2V allows you to take an existing OS install on physical hardware and convert it to run as a virtual machine on a virtual host. It's easy to do, so easy in fact that I'm not going to tell you how to do it. Some detailed instructions for performing a P2V conversion can be found here

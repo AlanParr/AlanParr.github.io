@@ -3,10 +3,11 @@ layout: post
 title:  "Automating repetitive tasks with Azure Functions."
 date:   2017-01-01 12:17:00 +0000
 categories: azure functions faas git
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Since the announcement of Azure Functions at Build 2016, I've been looking for an excuse to use them and I finally found it.
-
+<!--end_excerpt-->
 Whenever we release a new version of our software, the actual process for building and committing to source control is really simple and takes just a few minutes. Then I get to spend  at least 30 minutes on our internal job management system telling it about the new release and deprecating the old one. I then copy and paste the message from the release commit, enter it in to said system, then reformat it a bit and send it out to various internal users as release notes.
 
 It's just wrong when doing admin after a release takes more time than the actual release, plus I hate doing boring repetitive takes that I know a computer could do for me.

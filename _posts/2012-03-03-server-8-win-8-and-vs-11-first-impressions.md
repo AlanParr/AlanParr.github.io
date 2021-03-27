@@ -3,10 +3,11 @@ layout: post
 title:  "Server 8, Win 8 and VS 11 - first impressions"
 date: 2012-03-03 21:10:00 +0000
 categories: 
+excerpt_separator: <!--end_excerpt-->
 ---
 
 It's been a busy week for Microsoft, releasing the first Beta of Windows Server 8, the Consumer Preview of Windows 8, and the beta of Visual Studio 11. But have the changes they've made been positive ones? These are my first impressions.
-
+<!--end_excerpt-->
 ## Server 8
 
 After experiencing a hiccup with Virtualbox involving only having one CPU assigned to the VM, the install of the Core configuration took less than 15 minutes which I was very impressed by.

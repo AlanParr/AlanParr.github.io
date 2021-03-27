@@ -3,10 +3,11 @@ layout: post
 title:  "Slimming down your JSON"
 date: 2013-07-18 22:18:00 +0000
 categories: .net entityframework json.net serialization
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Newtonsoft JSON.Net is the JSON serialization library that is so good, Microsoft use it over their own.
-
+<!--end_excerpt-->
 While converting an existing project from Linq to SQL to EF5 Code First, I hit an issue with the Unit Tests, which use test objects serialized to XML files as the basis of the tests.  This upset the XML Serializer as collections in EF are ICollection<T> as opposed to Linq to SQL's EntitySet<T> – and the XML Serializer can’t handle interfaces.
 
 JSON.Net to the rescue - fortunately it can handle interfaces so I chose to convert the test data to serialized Json instead. This was a relatively trivial task, accomplished by the below Linqpad script (if you're not using [Linqpad](http://www.linqpad.net/), stop reading this blog and go and download it now).

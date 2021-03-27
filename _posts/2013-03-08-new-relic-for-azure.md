@@ -3,10 +3,11 @@ layout: post
 title:  "New Relic for Azure"
 date: 2013-03-08 20:10:00 +0000
 categories: .net azure newrelic profiling
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Ever since my company moved our main management system to Azure, I've been slowly working on the ability to monitor the application better in order to find the bottle necks and improve the user experience. To date, I've added:
-
+<!--end_excerpt-->
 * Timing on every request so I can query for the slowest pages.
 * Azure Diagnostics
 * StackExchange MiniProfiler to give me some insight in to every request, this has proved extremely useful in tracking down the exact cause of slow pages.

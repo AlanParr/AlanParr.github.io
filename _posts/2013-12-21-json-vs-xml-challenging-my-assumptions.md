@@ -3,10 +3,11 @@ layout: post
 title:  "JSON vs XML: Challenging my assumptions"
 date: 2013-12-21 15:12:00 +0000
 categories: json optimisation xml
+excerpt_separator: <!--end_excerpt-->
 ---
 
 I was recently (today actually) working on optimising a particular section of my project. This section is basically a Q & A that uses a piece of server-generated XML which is placed in to a Razor view where some Javascript works with it to generate the input fields for the user.
-
+<!--end_excerpt-->
 But XML is so 2010 right? If I swapped the XML for some JSON the payload would be smaller, it would generate faster, the javascript would be able to work with it faster, right?
 
 Let's test those assumptions one by one shall we?

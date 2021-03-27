@@ -3,10 +3,11 @@ layout: post
 title:  "Using Custom Model Binders in ASP.Net MVC"
 date: 2014-08-31 21:53:00 +0000
 categories: asp.net mvc
+excerpt_separator: <!--end_excerpt-->
 ---
 
 I answered a question on Reddit this week from someone starting out in MVC who had read an incorrect article about model binding which was mostly correct, but made using custom binders look like they require more code than they actually do, so I thought it was worth a post to clear that up.
-
+<!--end_excerpt-->
 ## What is (Custom) Model Binding?
 Model Binding is the process through which MVC takes a form post and maps all of the form values in to a custom object, allowing you to have a POST action method which takes in a ViewModel and have it automagically populated for you. Custom Model Binders allow you to insert your own binders for particular scenarios where the default binding won't quite cut it.
 

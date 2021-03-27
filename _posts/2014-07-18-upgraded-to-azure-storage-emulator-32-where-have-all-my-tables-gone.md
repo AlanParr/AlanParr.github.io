@@ -3,10 +3,11 @@ layout: post
 title:  "Upgraded to Azure Storage Emulator 3.2, where have all my tables gone?"
 date: 2014-07-18 15:05:00 +0000
 categories: azure storage-emulator
+excerpt_separator: <!--end_excerpt-->
 ---
 
 In an attempt to solve a 400 error accessing tables on the Azure Storage Emulator 3.0 today, I upgraded to 3.2 using the Web Platform Installer. This resulted in a kind of good news, bad news situation.
-
+<!--end_excerpt-->
 **Good** - The error stopped happening.
 
 **Bad** - Where the f**k have all my tables gone!

@@ -3,10 +3,11 @@ layout: post
 title:  "Going Cloudy Part 2 - Out with the old, in with the new"
 date: 2013-02-19 20:07:00 +0000
 categories: azure cloud migration
+excerpt_separator: <!--end_excerpt-->
 ---
 
 In my previous post, I briefly went over the current situation and the rationale for making the move to Microsoft’s Azure service.
-
+<!--end_excerpt-->
 I also promised details on the current architecture and what I have determined to be the new architecture. I will also attempt to explain how I got from old to new and why I have made the decisions I have made.
 
 ## The old architecture

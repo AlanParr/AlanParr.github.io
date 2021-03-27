@@ -3,10 +3,11 @@ layout: post
 title:  "UniqueIdentifier as a primary key, that will solve all of our problems!"
 date: 2015-09-11 19:54:00 +0000
 categories: azure database guid sql
+excerpt_separator: <!--end_excerpt-->
 ---
 
 No, no it won't.
-
+<!--end_excerpt-->
 In evolving a single-instance website to multi-instance one, one of the many problems I have faced is how to deal with database access when your website instances are on the opposite side of the world.
 
 My solution to this was to use SQL Azure Data Sync, makes sense as my databases are already in SQL Azure anyway.

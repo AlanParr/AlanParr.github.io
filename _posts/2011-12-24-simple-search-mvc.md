@@ -3,12 +3,13 @@ layout: post
 title:  "Simple Search MVC"
 date: 2011-12-24 23:31:00 +0000
 categories: 
+excerpt_separator: <!--end_excerpt-->
 ---
 
 ## Introduction
 
 This article introduces some simple code which allows easy addition of search functionality which can be used to search any objects (files, .net classes) and display the search results together in a single view.
-
+<!--end_excerpt-->
 ## Background
 
 This demo is presented in ASP.NET MVC so basic MVC knowledge would be useful, although this solution could be applied in other .net environments.

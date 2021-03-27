@@ -3,10 +3,11 @@ layout: post
 title:  "API Head-to-head Update : AWS S3 Vs Windows Azure Table Storage Vs Rackspace Cloud Files"
 date:   2020-06-13 13:29:00 +0000
 categories: api rackspace azure aws
+excerpt_separator: <!--end_excerpt-->
 ---
 
 This is an update to my last API head to head from August 2014, I'm nothing if not consistent with my inconsistent posting. I've recently changed jobs to a new company that is moving to Azure but has some legacy Rackspace assets, so I thought it'd be fun to redo the test with Rackspace added. Worth noting that the Rackspace support for C# is completely non-existent. The official Rackspace SDK hasn't been updated since 2013 and this test is using the openstack.net SDK which hasn't been updated since 2018.
-
+<!--end_excerpt-->
 ## The code
 
 ### Initialise Provider

@@ -3,10 +3,11 @@ layout: post
 title:  "Going Cloudy Part 4 - FTPServer and REST Service configuration"
 date: 2013-03-08 19:29:00 +0000
 categories: azure cloud migration
+excerpt_separator: <!--end_excerpt-->
 ---
 
 The FTP Server is a Windows Server 2012 Extra Small VM, running IIS for FTP and our in-house import/export agent.
-
+<!--end_excerpt-->
 The FTP server is used to exchange data between the application and external services. The reason for FTP is that the main external service we deal with only has that capability. We hope that external service can eventually switch to using JMS which can then be bridged to Service Bus, but for now this is all we have.
 
 For the purposes of resilience and quick recovery after a failure, all files including the FTP folders and the executables for the agent are kept on a separate data disk and all of the configuration needed to get from brand new VM to all systems go is scripted with Powershell.

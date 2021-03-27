@@ -3,10 +3,11 @@ layout: post
 title:  "Copying records between tables in different Azure accounts : The Next Generation"
 date: 2014-10-09 10:04:00 +0000
 categories: azure tablestorage
+excerpt_separator: <!--end_excerpt-->
 ---
 
 A few months back I posted a small piece of code for copying objects between Azure Table Storage Accounts. I have 2 bug-bears with the code I previously posted.
-
+<!--end_excerpt-->
 * It's all very custom, you need to give it the type that is in the table and add lambdas to make sure it doesn't try to select the wrong object.
 * Due to a change in the Azure Storage Library, it no longer works.
 

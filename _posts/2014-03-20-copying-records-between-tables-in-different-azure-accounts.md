@@ -3,10 +3,11 @@ layout: post
 title:  "Copying records between tables in different Azure accounts"
 date: 2014-03-20 02:00:00 +0000
 categories: azure nosql table-storage
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Today I had to quickly throw up a new instance of a customer's service in Hong Kong as they've got a big demo event coming up and want things to be as quick as possible. Now I haven't quite got things to a point where I can have multiple geographically distributed instances of the service all happily talking to each other and sharing data so this instance is it's own little island, a completely separate instance to the main one in the EU.
-
+<!--end_excerpt-->
 * Deploying the new Cloud Service was easy.
 * Taking a backup of the EU database and deploying it to Hong Kong was also easy.
 

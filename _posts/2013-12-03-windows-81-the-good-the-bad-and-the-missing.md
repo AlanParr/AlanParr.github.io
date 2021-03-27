@@ -3,10 +3,11 @@ layout: post
 title:  "Windows 8.1 - The good, the bad, and the missing."
 date: 2013-12-03 19:56:00 +0000
 categories: windows-8.1
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Little over a year after Windows 8, it gets an upgrade with the release of 8.1. Is this just a Service Pack by any other name or does it provide real improvement over it's predecessor that makes it worthy being a numbered release?
-
+<!--end_excerpt-->
 ## First, the good
 Real effort has been made in 8.1 to reduce the jarring effect of moving between Windows' Classic and Modern UIs. Here are the main improvements:
 

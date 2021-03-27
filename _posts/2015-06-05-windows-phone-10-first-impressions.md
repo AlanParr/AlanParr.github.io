@@ -3,10 +3,11 @@ layout: post
 title:  "Windows Phone 10 - First Impressions"
 date: 2015-06-05 21:14:00 +0000
 categories: windows windows10 windowsphone
+excerpt_separator: <!--end_excerpt-->
 ---
 
 After running the Windows 10 Technical Preview on my laptop for the last few months and being generally happy with it, bar the obvious problems you get running a Technical Preview, I've been itching to get my hands on Windows Phone 10 (officially referred to as Windows 10 Mobile, but I'm going to refer to it as WP10). As a very happy owner of a Lumia 1020, I'll be getting it eventually so thought it was worth taking a look at. Fortunately, a colleague has recently switched from WP to Apple, so he kindly leant me his Lumia 635 to use as a sacrifice to the Technical Preview gods.
-
+<!--end_excerpt-->
 You don't want to apply this to your main phone. I haven't hit any bugs yet, but the many interaction problems mean I'd be really annoyed if I had installed this on my main phone.
 
 ## The Good

@@ -3,10 +3,11 @@ layout: post
 title:  "Android - Unable to update apps on SD Card"
 date: 2012-02-08 19:41:00 +0000
 categories: android htc-desire updating-apps
+excerpt_separator: <!--end_excerpt-->
 ---
 
 I've had my HTC Desire for over a year now and, among the many bugs and annoyances that seem to be sneaking their way in to my daily phone-using experience, the most annoying is the recent inability to update any apps I have on my SD Card. Due to the diminutive size of the Desire's internal storage, ALL of my apps are on the SD Card, making this quite a large problem.
-
+<!--end_excerpt-->
 My solution up until now has been to move the offending apps back to the phone, update them, and then move them back to the SD Card.
 
 Fortunately, Nick Damoulakis has a [better idea](http://blog.nickdamoulakis.com/2011/06/i-cant-update-apps-installed-on-sd-card.html?m=1).

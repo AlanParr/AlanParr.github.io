@@ -3,10 +3,11 @@ layout: post
 title:  "This just in-Windows 8 not that bad"
 date: 2013-05-15 19:57:00 +0000
 categories: windows8 start-screen
+excerpt_separator: <!--end_excerpt-->
 ---
 
 Yep, I said it. I may have just committed professional suicide and may never be offered a job again and just to make it worth it I'm going to say it again.
-
+<!--end_excerpt-->
 Windows.8.Is.Not.That.Bad
 
 Why such gleaming praise? Have I lost my mind, or been bribed by Microsoft to say nice things about their crappy OS to my two readers (hi guys)? No, but unlike most of those who bash Windows 8 for it's split personality and it's absent Start button which is allegedly responsible for the deaths of many kittens, I've used it. I've used it at home since shortly after it came out and have been using it at work for a couple of months now.
