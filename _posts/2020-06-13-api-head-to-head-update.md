@@ -58,7 +58,7 @@ Can't argue with the simplicity of the code, once you've initialised the provide
 Worth noting that I don't have the original test file, so the file being uploaded here is [this one](/images/odo.jpg) I happened to have lying around. It is only 1k larger, so don't expect it will have a massive effect on the results.
 
 |Operation|S3|Azure|Rackspace|
-|-|-|-|-|
+|-|:-:|:-:|:-:|
 |Create Container|847|668|1915|
 |Upload 7Kb file|83|92|230|
 |List Blobs (1)|40|172|51|

@@ -19,7 +19,7 @@ To do that, I duplicated the method that populates an object and serializes it t
 I added a call to Encoding.ASCII.GetByteCount() around the serialized JSON and XML results and dumped this to the Trace windows. The results are below.
 
 |Type|1|2|3|4|5|6|7|
-|-|-|-|-|-|-|-|-|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |XML|3338|4133|3487|3255|3465|3194|1138|
 |Json|2266|2717|2292|2110|2234|2061|621|
 
@@ -29,7 +29,7 @@ This is in bytes, so the real world difference between the XML and the JSON in t
 Next job is to test how quickly the output is generated. Keep in mind that the method I'm testing includes other data access logic so these timings are not purely serialization. But as both will be doing the same work, it won't hurt to have that included as well to see how each performs in the real world.
 
 |Type|1|2|3|4|5|6|7|Avg|
-|-|-|-|-|-|-|-|-|-|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |XML|87.4|31.9|33.6|29.6|31.6|29.6|45.9|41.37143|
 |Json|38.9|20.7|27.8|21.2|23.8|24.4|23.5|25.75714|
 
@@ -40,7 +40,7 @@ But wait, the method that we're capturing also includes some data access. The JS
 To test this out, I swapped them round so the JSON method was first. Below is the aggregated table from both runs.
 
 |Type|1|2|3|4|5|6|7|Avg|
-|-|-|-|-|-|-|-|-|-|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |XML First|87.4|31.9|33.6|29.6|31.6|29.6|45.9|41.37143|
 |XML Second|39.2|25.3|26.7|24.3|26.5|37.1|21.6|28.67143|
 |Json First|83.5|28.9|30.4|30.9|32.7|46.3|47.7|42.91429|

@@ -138,7 +138,7 @@ These are ridiculously simple stats, essentially Stopwatch calls wrapped around 
 So here are my extremely simple and probably not at all reliable benchmarks.
 
 |Operation|S3|Azure|
-|-|-|-|
+|-|:-:|:-:|
 |Create Container|573|279|
 |Upload 7Kb file|99|55|
 |List Blobs (1)|41|103|
