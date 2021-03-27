@@ -6,7 +6,7 @@
 name: Use Small Icons
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: This is my very occasionally updated blog.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/1721771?s=400&u=4881e30d2164bfd8aa5563cc1ae2c5fa2ef0fc13&v=4
@@ -38,6 +38,9 @@ disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
+
+# Enter AppInsights instrumentation key
+appinsights: e49fe745-887d-4b0a-8e7e-36709f2435d3
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
