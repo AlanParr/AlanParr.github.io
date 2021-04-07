@@ -7,7 +7,16 @@ layout: default
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+      <div class="postdate">
+        {{ post.date | date_to_long_string }}
+      </div>
+      <div class="categories">
+        {% for cat in post.categories %}
+          <span class="category">
+            {{ cat }}
+          </span>
+        {% endfor %}
+      </div>
       <div class="entry">
         {{ post.excerpt }}
       </div>

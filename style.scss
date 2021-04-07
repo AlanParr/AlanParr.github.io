@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+	background: $gray;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -28,6 +28,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  background-color: $lightGray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 5px;
   padding: 0;
 
   @include mobile {
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   a {
     color: inherit;
   }
@@ -151,7 +152,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 .masthead {
@@ -241,14 +242,35 @@ nav {
 // .main
 //
 
+.container{
+  background-color: $white;
+}
+
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
+}
+
+.post > .postdate{
+  font-size:x-small;
+}
+
+.post > .categories > .category
+{
+  background-color: $lightGray;
+  color:$darkGray;
+  border-radius: 1em;
+  font-size:xx-small;
+  padding:0.5em;
+  padding-right:0.75em;
+  padding-left:0.75em;
+  margin-right:0.5em;
+
 }
 
 .post {
@@ -267,7 +289,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -296,4 +318,8 @@ table {
 th {
   background-color: black;
   color: white;
+}
+
+div.entry{
+  font-size: small;
 }
