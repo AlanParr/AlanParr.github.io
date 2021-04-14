@@ -2,7 +2,11 @@
 layout: post
 title:  "API Head-to-head: AWS S3 Vs Windows Azure Table Storage"
 date: 2014-08-06 21:52:00 +0000
-categories: aws azure s3 azurestorage
+tags:
+  - CloudStorage
+  - Azure
+  - AWS
+category: CloudStorage
 excerpt_separator: <!--end_excerpt-->
 ---
 

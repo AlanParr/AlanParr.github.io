@@ -1,1 +1,1 @@
-Repo originally forked from [https://github.com/barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
+My blog, based off of [https://github.com/brennanbrown/purelog](https://github.com/brennanbrown/purelog)

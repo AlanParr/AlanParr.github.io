@@ -2,7 +2,10 @@
 layout: post
 title:  "Azure downtime"
 date: 2013-02-24 21:57:00 +0000
-categories: azure downtime
+tags:
+  - Downtime
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

@@ -2,7 +2,10 @@
 layout: post
 title:  "Upgraded to Azure Storage Emulator 3.2, where have all my tables gone?"
 date: 2014-07-18 15:05:00 +0000
-categories: azure storage-emulator
+tags:
+  - StorageEmulator
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

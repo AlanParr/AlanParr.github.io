@@ -2,7 +2,10 @@
 layout: post
 title:  "Copying records between tables in different Azure accounts"
 date: 2014-03-20 02:00:00 +0000
-categories: azure nosql table-storage
+tags:
+  - TableStorage
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

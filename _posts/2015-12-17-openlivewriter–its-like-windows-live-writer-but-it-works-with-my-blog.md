@@ -2,7 +2,9 @@
 layout: post
 title:  "OpenLiveWriter–It’s like Windows Live Writer but it works with my blog!"
 date: 2015-12-17 20:31:00 +0000
-categories: 
+tags:
+  - Blogging
+category: Blogging
 excerpt_separator: <!--end_excerpt-->
 ---
 

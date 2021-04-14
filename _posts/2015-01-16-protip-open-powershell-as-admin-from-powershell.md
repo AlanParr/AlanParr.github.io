@@ -2,7 +2,9 @@
 layout: post
 title:  "ProTip: Open Powershell as admin from Powershell"
 date: 2015-01-16 10:18:00 +0000
-categories: powershell
+tags:
+  - Powershell
+category: Powershell
 excerpt_separator: <!--end_excerpt-->
 ---
 

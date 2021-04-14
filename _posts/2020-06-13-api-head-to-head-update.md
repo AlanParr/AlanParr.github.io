@@ -2,7 +2,12 @@
 layout: post
 title:  "API Head-to-head Update : AWS S3 Vs Windows Azure Table Storage Vs Rackspace Cloud Files"
 date:   2020-06-13 13:29:00 +0000
-categories: api rackspace azure aws
+tags:
+  - CloudStorage
+  - Rackspace
+  - Azure
+  - AWS
+category: CloudStorage
 excerpt_separator: <!--end_excerpt-->
 ---
 

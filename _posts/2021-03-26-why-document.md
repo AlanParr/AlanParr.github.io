@@ -2,7 +2,10 @@
 layout: post
 title:  "Why document what you know?"
 date:   2021-03-26 00:00:00 +0000
-categories: documentation
+tags:
+  - Documentation
+  - Ways of Working
+category: Documentation
 ---
 
 I've been thinking for a while about writing this post and some recent realisations in my professional life has spurred me on to finally do it.
@@ -24,7 +27,7 @@ It might be figuring out a process to carry out a new task that the business nee
 
 It might be figuring out how to fix an obscure issue on Legacy Service Y that crops up at seemingly random intervals.
 
-It could be anything, we're always learning and as a result, we are always accumulating new knowledge that, if we are not documenting and sharing it, we are unconsciously hoarding knowledge.
+It could be anything, we're always learning and as a result, we are always accumulating new knowledge that, if we are not documenting and sharing it, we are unconsciously hoarding it.
 
 ### So why is that bad?
 

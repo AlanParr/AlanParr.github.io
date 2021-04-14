@@ -2,7 +2,9 @@
 layout: post
 title:  "Windows 8.1 - The good, the bad, and the missing."
 date: 2013-12-03 19:56:00 +0000
-categories: windows-8.1
+tags:
+  - Windows8.1
+category: Windows8.1
 excerpt_separator: <!--end_excerpt-->
 ---
 

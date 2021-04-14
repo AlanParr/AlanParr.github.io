@@ -2,7 +2,11 @@
 layout: post
 title:  "New Relic for Azure"
 date: 2013-03-08 20:10:00 +0000
-categories: .net azure newrelic profiling
+tags:
+  - Profiling
+  - NewRelic
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

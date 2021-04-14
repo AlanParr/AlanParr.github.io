@@ -1,37 +1,6 @@
 ---
-layout: default
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-
-  {% capture read_time %}
-  {{ post.content | number_of_words | divided_by: 180 }}
-{% endcapture %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="postdate">
-        {{ post.date | date_to_long_string }}
-
-        {% if read_time != '0' %}
-  {{ read_time }}
-{% else %}
-  1
-{% endif %} min read
-      </div>
-      <div class="categories">
-        {% for cat in post.categories %}
-          <span class="category">
-            {{ cat }}
-          </span>
-        {% endfor %}
-      </div>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>

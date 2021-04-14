@@ -2,7 +2,10 @@
 layout: post
 title:  "Using Custom Model Binders in ASP.Net MVC"
 date: 2014-08-31 21:53:00 +0000
-categories: asp.net mvc
+tags:
+  - ASP.Net
+  - MVC
+category: MVC
 excerpt_separator: <!--end_excerpt-->
 ---
 

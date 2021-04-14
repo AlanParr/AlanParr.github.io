@@ -2,7 +2,11 @@
 layout: post
 title:  "A future Asus hit surely"
 date: 2012-02-08 20:48:00 +0000
-categories: asus-padfone tablet transformer
+tags:
+  - ASUS-Padfone
+  - Tablet
+  - Transformer
+category: Tablet
 excerpt_separator: <!--end_excerpt-->
 ---
 

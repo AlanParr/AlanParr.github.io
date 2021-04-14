@@ -1,89 +1,101 @@
+# Welcome to Jekyll!
 #
-# This file contains configuration flags to customize your site
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
 #
-
-# Name of your site (displayed in the header)
-name: Use Small Icons
-
-# Short bio or description (displayed in the header)
-description: This is my very occasionally updated blog.
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars.githubusercontent.com/u/1721771?s=400&u=4881e30d2164bfd8aa5563cc1ae2c5fa2ef0fc13&v=4
-
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# Flags below are optional
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
 #
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: alanjparr83@gmail.com
-  facebook:
-  flickr:
-  github: alanparr
-  instagram:
-  linkedin: alan-parr-02a9b351
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: reluctanttwit83
-  stackoverflow: users/136871/hermiod
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+title: "Use Small Icons"
+email: alanjparr83@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my very occasionally updated blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://alanparr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter: reluctanttwit83
+github: alanparr
+stackoverflow: users/136871/hermiod
+linkedin: alan-parr-02a9b351
 
+header_image: assets/profile.png
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: alanparrgithubpages
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
-
-# Enter AppInsights instrumentation key
 appinsights: e49fe745-887d-4b0a-8e7e-36709f2435d3
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://alanparr.github.io
+comments: true
+disqus: alanparrgithubpages
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+author: Alan Parr
+author_bio: >-
+  I am a .Net developer based in the Midlands in the UK, working on Azure, .Net Framework, .Net Core, and just generally playing around with anything that interests me.
+  I play snooker (badly), archery (acceptably) and am a recovering Windows Phone user.
+author_pic: https://avatars.githubusercontent.com/u/1721771?s=400&u=4881e30d2164bfd8aa5563cc1ae2c5fa2ef0fc13&v=4
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+paginate: 10
+paginate_path: "/:num/"
 
-permalink: /:title/
+markdown: kramdown
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+permalink: /:title
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: Alan Parr
+      avatar: https://avatars.githubusercontent.com/u/1721771?s=400&u=4881e30d2164bfd8aa5563cc1ae2c5fa2ef0fc13&v=4
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: post
+      content-type: notes
+  - scope:
+      path: ""
+      type: journals
+    values:
+      layout: journal-entry
+      content-type: journals
 
-# Exclude these files from your production _site
+# Allows all pages to be put into `_pages` folder
+# for easier navigation and better SEO.
+collections:
+  pages:
+    output: true
+    permalink: /:title
+#  notes:
+#    output: true
+#    permalink: /notes/:title
+#  journals:
+#    output: true
+#    permalink: /journals/:title
+
+# Exclude from processing.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"

@@ -2,7 +2,11 @@
 layout: post
 title:  "Slimming down your JSON"
 date: 2013-07-18 22:18:00 +0000
-categories: .net entityframework json.net serialization
+tags:
+  - EntityFramework
+  - Json.Net
+  - Serialization
+category: Serialization
 excerpt_separator: <!--end_excerpt-->
 ---
 

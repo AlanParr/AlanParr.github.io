@@ -2,7 +2,10 @@
 layout: post
 title:  "Supporting SameSite None in .Net 4.6 or lower"
 date:   2020-07-10 00:00:00 +0000
-categories: samesite net46
+tags:
+  - Samesite
+  - Net46
+category: Samesite
 excerpt_separator: <!--end_excerpt-->
 ---
 
@@ -28,7 +31,7 @@ var cookie = new HttpCookie("myreallyimportantcookie")
 
 As you'll see from the below image, we have a cookie with the secure attribute and httponly, but no samesite attribute.
 
-![No SameSite](\images\cookie-nosamesite.png)
+![No SameSite](\assets\img\cookie-nosamesite.png)
 
 ## Adding SameSite
 
@@ -59,7 +62,7 @@ var cookie = new HttpCookie("myreallyimportantcookie")
 
 And now if we run the application, we can see we have the SameSite attribute set to None.
 
-![SameSite](\images\cookie-samesite.png)
+![SameSite](\assets\img\cookie-samesite.png)
 
 ## Disclaimer #1
 This solution is completely unsupported and a bit gross. The approved solution is to move to .Net 4.7.2 and if you are able, you should absolutely do that. But sometimes the real world places limits upon us and if you are in that situation, hopefully this will get you out of a bind.

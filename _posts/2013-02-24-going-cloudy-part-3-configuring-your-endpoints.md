@@ -2,7 +2,11 @@
 layout: post
 title:  "Going Cloudy Part 3 - Configuring your endpoints"
 date: 2013-02-24 20:27:00 +0000
-categories: azure cloud migration
+tags:
+  - Cloud
+  - Migration
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

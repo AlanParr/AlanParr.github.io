@@ -2,7 +2,12 @@
 layout: post
 title:  "Breathing new life in to old netbooks"
 date: 2013-04-23 19:30:00 +0000
-categories: dell-mini-9 netbook samsung-nc10 windows
+tags:
+  - Dell-Mini-9
+  - Netbook
+  - Samsung-NC-10
+  - Windows
+category: Dell-Mini-9
 excerpt_separator: <!--end_excerpt-->
 ---
 

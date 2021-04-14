@@ -2,7 +2,11 @@
 layout: post
 title:  "A simple WebCache Helper"
 date: 2013-07-01 20:25:00 +0000
-categories: asp.net azure caching
+tags:
+  - ASP.Net
+  - Caching
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

@@ -2,7 +2,10 @@
 layout: post
 title:  "Converting docx to PDF in Azure"
 date:   2017-01-08 13:26:00 +0000
-categories: azure pdf
+tags:
+  - Azure
+  - PDF
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

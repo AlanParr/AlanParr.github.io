@@ -2,7 +2,11 @@
 layout: post
 title:  "Making old machines immortal(-ish) with P2V"
 date: 2013-04-17 22:35:00 +0000
-categories: p2v virtualisation vmware converter
+tags:
+  - P2V
+  - Virtualisation
+  - VMWare-Converter
+category: Virtualisation
 excerpt_separator: <!--end_excerpt-->
 ---
 

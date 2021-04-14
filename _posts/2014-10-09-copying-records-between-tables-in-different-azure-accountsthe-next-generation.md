@@ -2,7 +2,10 @@
 layout: post
 title:  "Copying records between tables in different Azure accounts : The Next Generation"
 date: 2014-10-09 10:04:00 +0000
-categories: azure tablestorage
+tags:
+  - Azure
+  - TableStorage
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

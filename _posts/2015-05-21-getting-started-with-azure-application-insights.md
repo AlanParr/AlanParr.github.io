@@ -2,7 +2,10 @@
 layout: post
 title:  "Getting started with Azure Application Insights"
 date: 2015-05-21 09:42:00 +0000
-categories: appinsights azure
+tags:
+  - Azure
+  - ApplicationInsights
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

@@ -2,7 +2,11 @@
 layout: post
 title:  "Automating Fortify scanning in Azure DevOps"
 date:   2021-02-01 00:00:00 +0000
-categories: fortify devops azdo
+tags:
+  - Fortify
+  - Devops
+  - Azdo
+category: Devops
 ---
 
 [Fortify](https://www.microfocus.com/en-us/portfolio/application-security) is a really useful tool for scanning your code and reducing the chance of bugs or vulnerabilities making their way in to production. They even provide Azure DevOps tasks for integrating submitting your code in to your build pipelines.
@@ -17,27 +21,27 @@ First thing is to install the [Micro Focus Fortify](https://marketplace.visualst
 * Against the release, click `Start Scan` and select `Static`.
 * Complete the form, including selecting your Technology Stack, Audit Preference, etc.
 * Copy the Release ID from the bottom of the page, you'll need this later.
-![Fortify Scan Form](\images\fortify-scan-form.png)
+![Fortify Scan Form](\assets\img\fortify-scan-form.png)
 
 ## Creating Fortify service connection
 The first thing we need to do is set up a service connection between Azure DevOps and Fortify.
 
 ### Retrieve Fortify API Keys
 In the Fortify portal, go to Administration, then Settings, then API, as below:
-![Fortify API page](\images\fortify-api.png)
+![Fortify API page](\assets\img\fortify-api.png)
 
 Click `Add Key`, enter a name for the key. The minimum role required is `Start Scans`:
-![Fortify API key entry](\images\fortify-apikey-entry.png)
+![Fortify API key entry](\assets\img\fortify-apikey-entry.png)
 
 You'll need the API Key and the API Secret that will be displayed. You can only see the secret once, so make sure you copy it before closing the dialog.
 
 ### Create connection in Azure DevOps
 In your Azure DevOps project, go to Settings, then Service Connections, and click `New Service Connection`. In the list, you should see an entry for Fortify.
-![Service Connection](\images\fortify-azdo-connection.png)
+![Service Connection](\assets\img\fortify-azdo-connection.png)
 
 * Complete the New Connection dialog.
 
-![Service Connection Details](\images\fortify-azdo-connection-details.png)
+![Service Connection Details](\assets\img\fortify-azdo-connection-details.png)
 * The API and Portal urls were the values I couldn't find in their documentation so these may be different for you.
 * Put the API Key and API Secret from the Fortify portal in the Authentication fields. Be sure to set the Authentication method to `Token Based Authentication`.
 
@@ -87,7 +91,7 @@ Add a Variable called `ReleaseId` and add the Release Id from Fortify.
 
 Click Save and run your pipeline, you should see the following in the output
 
-![Fortify scan result](\images\fortify-azdo-scan.png)
+![Fortify scan result](\assets\img\fortify-azdo-scan.png)
 **Notes**
  * If your code base is large or the scan is in the Queued state for a long time, the scan may take longer than the maximum 60 minutes Azure DevOps allows a task to run. If this is the case, I suggest setting the Error preference to warn rather than fail so you can tell the difference between the scan wait timing out and another error.
  * I am uploading the source code here, but you can also upload the compiled code. However, I have found that the relevance of the results is a lot better when uploading raw source code so would suggest doing this if you can.

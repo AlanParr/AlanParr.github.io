@@ -2,7 +2,10 @@
 layout: post
 title:  "JSON vs XML: Challenging my assumptions"
 date: 2013-12-21 15:12:00 +0000
-categories: json optimisation xml
+tags:
+  - Json
+  - Xml
+category: Optimisation
 excerpt_separator: <!--end_excerpt-->
 ---
 

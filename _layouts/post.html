@@ -2,16 +2,20 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<article class="post-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <div class="entry">
-    {{ content }}
-  </div>
+    <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">{{ page.title | escape }}</h2>
+        {%- include post-data.html -%}
+    </header>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+    <div class="post-body itemprop=" articleBody">
+        {{ content }}
+    </div>
 
-  {% include disqus.html %}
+    {%- include author.html -%}
+
+    {%- include disqus.html -%}
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

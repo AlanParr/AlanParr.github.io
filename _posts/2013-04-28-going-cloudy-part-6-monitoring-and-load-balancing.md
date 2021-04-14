@@ -2,7 +2,11 @@
 layout: post
 title:  "Going Cloudy Part 6 - Monitoring and Load Balancing"
 date: 2013-04-28 21:08:00 +0000
-categories: azure cloud migraton
+tags:
+  - Cloud
+  - Migration
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

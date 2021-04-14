@@ -2,7 +2,10 @@
 layout: post
 title:  "Automating repetitive tasks with Azure Functions."
 date:   2017-01-01 12:17:00 +0000
-categories: azure functions faas git
+tags:
+  - Azure
+  - FaaS
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 
@@ -14,7 +17,7 @@ It's just wrong when doing admin after a release takes more time than the actual
 
 Enter Azure Functions, below is a quick diagram of how I wanted everything to work.
 
-![Solution Diagram](\images\blog-funcsdiagram.png)
+![Solution Diagram](\assets\img\blog-funcsdiagram.png)
 
 Source control calls a function when we commit. This function determines if it is a release by checking for a specific string in the message, it then puts a message on a queue to another function which will then enter the release details straight in to the database of our internal system (which we host in azure). This system doesn't have an API so we'll do it the old fashioned way with raw SQL.
 

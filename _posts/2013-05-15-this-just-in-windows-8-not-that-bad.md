@@ -2,7 +2,10 @@
 layout: post
 title:  "This just in-Windows 8 not that bad"
 date: 2013-05-15 19:57:00 +0000
-categories: windows8 start-screen
+tags:
+  - Windows8
+  - StartScreen
+category: Windows8
 excerpt_separator: <!--end_excerpt-->
 ---
 

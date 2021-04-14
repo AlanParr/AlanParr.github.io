@@ -2,7 +2,9 @@
 layout: post
 title:  "In-place upgrade Windows?! You’ve got to be kidding me!"
 date: 2015-12-21 13:00:00 +0000
-categories: windows8
+tags:
+  - Windows8
+category: Windows8
 excerpt_separator: <!--end_excerpt-->
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title:  "Windows 10 upgrade experience"
 date: 2015-09-16 14:03:00 +0000
-categories: miracles windows10
+tags:
+  - Windows10
+category: Windows10
 excerpt_separator: <!--end_excerpt-->
 ---
 

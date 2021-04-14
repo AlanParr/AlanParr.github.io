@@ -2,7 +2,9 @@
 layout: post
 title:  "Windows 10 Mobile: Impressions after a week."
 date: 2015-12-28 15:26:00 +0000
-categories: windows10mobile
+tags:
+  - Windows10Mobile
+category: Windows10Mobile
 excerpt_separator: <!--end_excerpt-->
 ---
 

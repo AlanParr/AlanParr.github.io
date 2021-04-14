@@ -2,7 +2,11 @@
 layout: post
 title:  "Android - Unable to update apps on SD Card"
 date: 2012-02-08 19:41:00 +0000
-categories: android htc-desire updating-apps
+tags:
+  - Android
+  - HTC-Desire
+  - Updating-Apps
+category: Android
 excerpt_separator: <!--end_excerpt-->
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title:  "Windows 10 Mobile: An update"
 date:   2016-01-03 07:11:00 +0000
-categories: windows10mobile
+tags:
+  - Windows10Mobile
+category: Windows10Mobile
 excerpt_separator: <!--end_excerpt-->
 ---
 

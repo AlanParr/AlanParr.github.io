@@ -2,7 +2,11 @@
 layout: post
 title:  "Going Cloudy Part 4 - FTPServer and REST Service configuration"
 date: 2013-03-08 19:29:00 +0000
-categories: azure cloud migration
+tags:
+  - Cloud
+  - Migration
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 

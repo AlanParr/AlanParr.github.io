@@ -2,7 +2,10 @@
 layout: post
 title:  "My experience of Windows 8"
 date: 2013-01-01 22:12:00 +0000
-categories: metro windows windows-8
+tags:
+  - Metro
+  - Windows8
+category: Windows8
 excerpt_separator: <!--end_excerpt-->
 ---
 

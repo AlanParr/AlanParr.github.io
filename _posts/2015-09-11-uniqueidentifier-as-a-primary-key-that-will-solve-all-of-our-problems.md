@@ -2,7 +2,12 @@
 layout: post
 title:  "UniqueIdentifier as a primary key, that will solve all of our problems!"
 date: 2015-09-11 19:54:00 +0000
-categories: azure database guid sql
+tags:
+  - Azure
+  - Database
+  - SQL
+  - GUID
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 
@@ -20,7 +25,7 @@ While using uniqueidentifiers as PKs has virtually eliminated any possibility of
 
 As is customary, I decided to run some tests. Below are the results of inserting 10k records in to an empty table:
 
-![Negative effect of GUIDs on fragmentation](\images\blog-guids-1.PNG)
+![Negative effect of GUIDs on fragmentation](\assets\img\blog-guids-1.PNG)
 
 Ouch! 96% fragmentation vs 18% on 10k records. Now in reality I rarely insert 10k records at the same time, but certain operations involve hundreds and this level of fragmentation will occur over the course of time.
 
@@ -32,7 +37,7 @@ A contact at Microsoft suggested using the SequentialId() function in SQL Azure 
 
 I'll not repeat the contents of the article, which is a really informative read, but it seems to work. This is how my tests look now:
 
-![Fragmentation impprovement using sequential GUID](\images\blog-guids-2.PNG)
+![Fragmentation impprovement using sequential GUID](\assets\img\blog-guids-2.PNG)
 
 I'll take that, much better fragmentation and approximately the same cost for inserts.
 

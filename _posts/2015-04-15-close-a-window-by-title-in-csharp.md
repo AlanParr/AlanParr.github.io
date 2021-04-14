@@ -2,7 +2,10 @@
 layout: post
 title:  "Close a window by title in C#"
 date: 2015-04-15 20:24:00 +0000
-categories: csharp windows
+tags:
+  - CSharp
+  - Windows
+category: CSharp
 excerpt_separator: <!--end_excerpt-->
 ---
 

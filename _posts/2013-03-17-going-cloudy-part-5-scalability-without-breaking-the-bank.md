@@ -2,7 +2,11 @@
 layout: post
 title:  "Going Cloudy Part 5 - Scalability without breaking the bank"
 date: 2013-03-17 16:15:00 +0000
-categories: azure cloud vsperf.exe
+tags:
+  - Cloud
+  - VSPerf
+  - Azure
+category: Azure
 excerpt_separator: <!--end_excerpt-->
 ---
 
