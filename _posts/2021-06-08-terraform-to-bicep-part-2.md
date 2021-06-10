@@ -50,10 +50,12 @@ resource mainstorage 'Microsoft.Storage/storageAccounts@2021-02-01' = {
 
 We start our resource with the word `resource` in both. In Bicep, we then put in the name for the resource, this is what other resources will use to reference it. After that, we need to put in the path to the resource type.
 One of the really lovely things about the Bicep extension is that it gives you full intellisense for this:
+
 ![Bicep resource intellisense](..\\assets\img\bicep2-resource-intellisense.png)
 If you don't know what the exact name of the resource is, you can start typing what you want and it gets you fairly close.
 
 Once you hit enter on the resource type, it will offer you a choice of all the API versions
+
 ![Bicep resource intellisense versions](..\\assets\img\bicep2-resource-intellisense-versions.png)
 
 This is one feature that I suspect may be a big tick in Bicep's box over time as the Azure API changes. HashiCorp are pretty good at keeping up, but recently I hit an issue where I needed to create a SAS and the version of the API being used by Terraform is not the current and the SAS is not valid for certain uses.
@@ -94,6 +96,7 @@ properties: {
 One thing I quickly picked up is that for most resources, only properties that are mandatory or are going to be set 99% of the time are present on the base resource.
 
 Lesser used properties hang off of the properties object. Again, full intellisense is provided here which is really helpful from a learning perspective.
+
 ![Bicep resource intellisense properties](..\\assets\img\bicep2-resource-intellisense-properties.png)
 
 And that is it for our admittedly very simple storage account example.
