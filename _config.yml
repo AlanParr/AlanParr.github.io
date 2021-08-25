@@ -35,7 +35,7 @@ google_analytics:
 appinsights: e49fe745-887d-4b0a-8e7e-36709f2435d3
 
 comments: true
-disqus: alanparrgithubpages
+disqus: use-small-icons-blog
 
 author: Alan Parr
 author_bio: >-
@@ -66,6 +66,7 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+      comments: true
       author: Alan Parr
       avatar: https://avatars.githubusercontent.com/u/1721771?s=400&u=4881e30d2164bfd8aa5563cc1ae2c5fa2ef0fc13&v=4
   - scope:
