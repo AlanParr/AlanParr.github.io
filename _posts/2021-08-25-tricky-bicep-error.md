@@ -80,6 +80,6 @@ should be
 name: 'server${appname}${envtype}/db${appname}${envtype}'
 ```
 
-Once I knew the solution, the error message started to make a bit more sense, although a more decisive error message would've been nice.
+Once I knew the solution, the error message started to make a bit more sense, although a more detailed error message would've been nice.
 
 Hopefully this blog post will save someone else (or future me) from wrestling with the same problem.
