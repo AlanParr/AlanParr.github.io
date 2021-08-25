@@ -58,9 +58,8 @@ When I ran the script, I got the following baffling error:
 ```
 
 The key piece of information being
-```
-A nested resource type must have identical number of segments as its resource name. A root resource type must have segment length one greater than its resource name.
-```
+
+*A nested resource type must have identical number of segments as its resource name. A root resource type must have segment length one greater than its resource name.*
 
 I followed the link and, frankly, it was no use at all.
 After over an hour of experimentation, and googling, I manage to find a Stack Overflow post which unfortunately I didn't save the url for, which gave me the answer.
