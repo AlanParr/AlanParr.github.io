@@ -10,7 +10,8 @@ category: DevOps
 I was working on a Bicep script that would deploy an Azure SQL database server and a database.
 
 Below is an excerpt of the file with the relevant pieces:
-```
+
+```bicep
 resource server 'Microsoft.Sql/servers@2021-02-01-preview' = {
   name: 'server${appname}${envtype}'
   location: resourceGroup().location
@@ -69,13 +70,13 @@ The reason was staring me in the face the whole time as another thing I was tryi
 As it turns out, the name of the database must be prefixed with the name of the server.
 
 So
-```
+```bicep
 name: 'db${appname}${envtype}'
 ```
 
 should be 
 
-```
+```bicep
 name: 'server${appname}${envtype}/db${appname}${envtype}'
 ```
 

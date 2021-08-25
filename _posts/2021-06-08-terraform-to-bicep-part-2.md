@@ -18,7 +18,7 @@ For all of my editing, I am using VS Code with the [HashiCorp Terraform](https:/
 ## Storage Account
 
 ### Terraform
-```
+```hcl
 resource "azurerm_storage_account" "main" {
   name                      = "sa${var.appname}${var.environment}"
   resource_group_name       = azurerm_resource_group.main.name
@@ -32,7 +32,7 @@ resource "azurerm_storage_account" "main" {
 ```
 
 ### Bicep
-```
+```bicep
 resource mainstorage 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   name: 'sa${appname}${environment}'
   location: resourceGroup().location
@@ -68,17 +68,17 @@ So pros and cons to both approaches.
 
 Let's go line by line through the Bicep code.
 
-```
+```bicep
 name: 'sa${appname}${environment}'
 ```
 This generates the name of the account, no major difference between this and Terraform except you don't need to prefix the variable with `var.`, which is neither here nor there really.
 
-```
+```bicep
 location: resourceGroup().location
 ```
 Here we just take the resource group that we are scoped to, whatever that may be, and set our location to match. We could of course make it different if we needed to, but this provides a nice default.
 
-```
+```bicep
   kind: 'StorageV2'
   sku: {
     name: 'Standard_LRS'
@@ -87,7 +87,7 @@ Here we just take the resource group that we are scoped to, whatever that may be
 ```
 Here we just set the kind of the account and the SKU. A couple of extra lines than Terraform but again, doesn't really make any odds.
 
-```
+```bicep
 properties: {
     minimumTlsVersion: 'TLS1_2'
     supportsHttpsTrafficOnly: true

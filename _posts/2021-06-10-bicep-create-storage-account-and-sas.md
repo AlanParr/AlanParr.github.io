@@ -18,7 +18,7 @@ I thought I'd just share a script i've been working on which creates a storage a
 On to the code:
 
 main.bicep
-```
+```bicep
 param appname string = 'testapp'
 param environment string = 'preprod'
 param region string = 'ukwest'
@@ -52,7 +52,7 @@ output myContainerUploadSAS string = '${res.outputs.myContainerBlobEndpoint}?${r
 ```
 
 storage.bicep
-```
+```bicep
 targetScope = 'resourceGroup'
 
 param appname string

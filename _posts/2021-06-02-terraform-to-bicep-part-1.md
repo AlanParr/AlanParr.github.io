@@ -33,7 +33,7 @@ Syntactically, Terraform and Bicep aren't that different.
 The below snippets both create a resource group using passed in parameters `appname` and `environment`
 
 ### Terraform
-```
+```hcl
 resource "azurerm_resource_group" "main" {
   name     = "rg-${var.appname}-${var.environment}"
   location = var.primaryregion
@@ -41,7 +41,7 @@ resource "azurerm_resource_group" "main" {
 ```
 
 ### Bicep
-```
+```bicep
 targetScope = 'subscription'
 
 resource sa 'Microsoft.Resources/resourceGroups@2021-01-01' = {
@@ -54,7 +54,7 @@ The differences comes when you need to deploy a resource group then deploy resou
 
 In Terraform, you just keep creating resources and reference the group you just created.
 
-```
+```hcl
 resource "azurerm_application_insights" "main" {
   name                = "appi-${var.appname}-${var.environment}"
   location            = azurerm_resource_group.main.location
@@ -67,7 +67,7 @@ However, in Bicep, each file has a scope which is one of `managementGroup`,`reso
 
 You must break the additional resources out in to a module, as below:
 
-```
+```bicep
 module res './resources.bicep' = {
   name: 'resourceDeploy'
   params: {
