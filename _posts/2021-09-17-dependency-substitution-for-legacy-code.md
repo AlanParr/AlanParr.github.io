@@ -180,7 +180,7 @@ and in our test we use this to get the `Mock<IBoredClient>` in to the factory:
 
 By calling the `TestBoredClientFactory.SetClient` method, we can push the Mock in to the static `_overriddenClient` which will then be produced by the `BoredClientFactory` in `BoredomSuggestionService`.
 
-As a result of this `bait-and-switch` we can now substitute the BoredClient with our Mock and get some tests in.
+As a result of this bait-and-switch we can now substitute the BoredClient with our Mock and get some tests in.
 
 ## Conclusion
 
