@@ -10,7 +10,7 @@ category: Refactoring
 This post shows an example of how to introduced a form of dependency injection in to legacy code with minimal changes.
 I refer to this as dependency substitution because, in my view at least, there is a subtle difference between this and depdendency injection.
 
-With dependency injection, we are `injecting` the dependency via either constructor or property injection. The dependency is set once by our IOC container to whatever type that dependency is set to be set to.
+With dependency injection, we are *injecting* the dependency via either constructor or property injection. The dependency is set once by our IOC container to whatever type that dependency is set to be set to.
 
 With dependency substitution, we're performing a bait and switch, swapping out the previously hard-coded dependency via a surreptitously snuck in substitute.
 
