@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Measure everything - Empty collections"
-date:   2022-02-11 00:00:00 +0000
+date:   2022-02-13 00:00:00 +0000
 tags:
   - Benchmarking
 category: Benchmarking
