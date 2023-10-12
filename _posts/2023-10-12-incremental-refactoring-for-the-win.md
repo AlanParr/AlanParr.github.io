@@ -125,6 +125,8 @@ public void TestSetup()
 ```
 So now we can inject a Mock and start mocking and verifying behaviour of this service.
 
+The reason for the TestDatabaseServiceFactory type is to allow us to keep the SetTestInstance method on the base class protected and prevent (or at least reduce the chances) of someone accidentally using it in Production.
+
 But don't stop here.
 
 ## Final form
